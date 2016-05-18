@@ -1,0 +1,13 @@
+--- 
+org: 
+  cloudfoundry: 
+    demo: 
+      people: 
+        zipkin: 
+          enabled: false
+spring: 
+  application: 
+    name: people
+  sleuth: 
+    sampler: 
+      percentage: 1.0
