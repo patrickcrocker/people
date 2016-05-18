@@ -7,7 +7,7 @@ org:
           enabled: false
 spring: 
   application: 
-    name: people
+    name: people-service
   sleuth: 
     sampler: 
       percentage: 1.0
